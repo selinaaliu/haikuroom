@@ -7,14 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC6C1C2B1D8B780700D8F160 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C2A1D8B780700D8F160 /* main.m */; };
-		FC6C1C2E1D8B780700D8F160 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C2D1D8B780700D8F160 /* AppDelegate.m */; };
-		FC6C1C311D8B780700D8F160 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C301D8B780700D8F160 /* FirstViewController.m */; };
-		FC6C1C341D8B780700D8F160 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C331D8B780700D8F160 /* SecondViewController.m */; };
-		FC6C1C371D8B780700D8F160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6C1C351D8B780700D8F160 /* Main.storyboard */; };
-		FC6C1C391D8B780700D8F160 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6C1C381D8B780700D8F160 /* Images.xcassets */; };
-		FC6C1C3C1D8B780700D8F160 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6C1C3A1D8B780700D8F160 /* LaunchScreen.xib */; };
 		FC6C1C481D8B780700D8F160 /* HaikuRoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C471D8B780700D8F160 /* HaikuRoomTests.m */; };
+		FC6C1C531D8B788500D8F160 /* AddHaikuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C521D8B788500D8F160 /* AddHaikuViewController.m */; };
+		FC6C1C591D8B78C500D8F160 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C581D8B78C500D8F160 /* AppDelegate.m */; };
+		FC6C1C5C1D8B790800D8F160 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6C1C5A1D8B790800D8F160 /* LaunchScreen.xib */; };
+		FC6C1C5D1D8B790800D8F160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6C1C5B1D8B790800D8F160 /* Main.storyboard */; };
+		FC6C1C6A1D8B791A00D8F160 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C5F1D8B791A00D8F160 /* CanvasViewController.m */; };
+		FC6C1C6B1D8B791A00D8F160 /* HaikuDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C611D8B791A00D8F160 /* HaikuDetailsViewController.m */; };
+		FC6C1C6C1D8B791A00D8F160 /* HaikuWallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C631D8B791A00D8F160 /* HaikuWallCell.m */; };
+		FC6C1C6D1D8B791A00D8F160 /* HaikuWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C651D8B791A00D8F160 /* HaikuWallViewController.m */; };
+		FC6C1C6E1D8B791A00D8F160 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C671D8B791A00D8F160 /* ImageCollectionViewCell.m */; };
+		FC6C1C6F1D8B791A00D8F160 /* ImageCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C691D8B791A00D8F160 /* ImageCollectionViewFlowLayout.m */; };
+		FC6C1C7D1D8B79DF00D8F160 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6C1C701D8B79DF00D8F160 /* Images.xcassets */; };
+		FC6C1C7E1D8B79DF00D8F160 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC6C1C711D8B79DF00D8F160 /* Info.plist */; };
+		FC6C1C7F1D8B79DF00D8F160 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C731D8B79DF00D8F160 /* LogInViewController.m */; };
+		FC6C1C801D8B79DF00D8F160 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C741D8B79DF00D8F160 /* main.m */; };
+		FC6C1C811D8B79DF00D8F160 /* MyHaikusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C761D8B79DF00D8F160 /* MyHaikusCell.m */; };
+		FC6C1C821D8B79DF00D8F160 /* MyHaikusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C781D8B79DF00D8F160 /* MyHaikusViewController.m */; };
+		FC6C1C831D8B79DF00D8F160 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FC6C1C791D8B79DF00D8F160 /* README.txt */; };
+		FC6C1C841D8B79DF00D8F160 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C1C7C1D8B79DF00D8F160 /* RegisterViewController.m */; };
+		FC6C1C861D8B7A2500D8F160 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C851D8B7A2500D8F160 /* AudioToolbox.framework */; };
+		FC6C1C881D8B7A3000D8F160 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C871D8B7A3000D8F160 /* CFNetwork.framework */; };
+		FC6C1C8A1D8B7A3600D8F160 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C891D8B7A3600D8F160 /* CoreGraphics.framework */; };
+		FC6C1C8C1D8B7A3C00D8F160 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C8B1D8B7A3C00D8F160 /* CoreLocation.framework */; };
+		FC6C1C8E1D8B7A4600D8F160 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C8D1D8B7A4600D8F160 /* libz.dylib */; };
+		FC6C1C901D8B7A4D00D8F160 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C8F1D8B7A4D00D8F160 /* MobileCoreServices.framework */; };
+		FC6C1C921D8B7A5800D8F160 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C911D8B7A5800D8F160 /* QuartzCore.framework */; };
+		FC6C1C941D8B7A6100D8F160 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C931D8B7A6100D8F160 /* Security.framework */; };
+		FC6C1C961D8B7A6800D8F160 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C951D8B7A6800D8F160 /* StoreKit.framework */; };
+		FC6C1C981D8B7A7100D8F160 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C971D8B7A7100D8F160 /* SystemConfiguration.framework */; };
+		FC6C1C9A1D8B7A7C00D8F160 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C991D8B7A7C00D8F160 /* libsqlite3.dylib */; };
+		FC6C1CA11D8B7AA400D8F160 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C9B1D8B7AA400D8F160 /* Bolts.framework */; };
+		FC6C1CA21D8B7AA400D8F160 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C9C1D8B7AA400D8F160 /* Parse.framework */; };
+		FC6C1CA31D8B7AA400D8F160 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C9D1D8B7AA400D8F160 /* ParseCrashReporting.framework */; };
+		FC6C1CA41D8B7AA400D8F160 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C9E1D8B7AA400D8F160 /* ParseFacebookUtils.framework */; };
+		FC6C1CA51D8B7AA400D8F160 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1C9F1D8B7AA400D8F160 /* ParseFacebookUtilsV4.framework */; };
+		FC6C1CA61D8B7AA400D8F160 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C1CA01D8B7AA400D8F160 /* ParseUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,20 +57,57 @@
 
 /* Begin PBXFileReference section */
 		FC6C1C251D8B780700D8F160 /* HaikuRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaikuRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC6C1C291D8B780700D8F160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC6C1C2A1D8B780700D8F160 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FC6C1C2C1D8B780700D8F160 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FC6C1C2D1D8B780700D8F160 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FC6C1C2F1D8B780700D8F160 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		FC6C1C301D8B780700D8F160 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		FC6C1C321D8B780700D8F160 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		FC6C1C331D8B780700D8F160 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		FC6C1C361D8B780700D8F160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FC6C1C381D8B780700D8F160 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FC6C1C3B1D8B780700D8F160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FC6C1C411D8B780700D8F160 /* HaikuRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaikuRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6C1C461D8B780700D8F160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC6C1C471D8B780700D8F160 /* HaikuRoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaikuRoomTests.m; sourceTree = "<group>"; };
+		FC6C1C511D8B788500D8F160 /* AddHaikuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddHaikuViewController.h; sourceTree = "<group>"; };
+		FC6C1C521D8B788500D8F160 /* AddHaikuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddHaikuViewController.m; sourceTree = "<group>"; };
+		FC6C1C571D8B78C500D8F160 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC6C1C581D8B78C500D8F160 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC6C1C5A1D8B790800D8F160 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		FC6C1C5B1D8B790800D8F160 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FC6C1C5E1D8B791A00D8F160 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		FC6C1C5F1D8B791A00D8F160 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		FC6C1C601D8B791A00D8F160 /* HaikuDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaikuDetailsViewController.h; sourceTree = "<group>"; };
+		FC6C1C611D8B791A00D8F160 /* HaikuDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaikuDetailsViewController.m; sourceTree = "<group>"; };
+		FC6C1C621D8B791A00D8F160 /* HaikuWallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaikuWallCell.h; sourceTree = "<group>"; };
+		FC6C1C631D8B791A00D8F160 /* HaikuWallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaikuWallCell.m; sourceTree = "<group>"; };
+		FC6C1C641D8B791A00D8F160 /* HaikuWallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaikuWallViewController.h; sourceTree = "<group>"; };
+		FC6C1C651D8B791A00D8F160 /* HaikuWallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaikuWallViewController.m; sourceTree = "<group>"; };
+		FC6C1C661D8B791A00D8F160 /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		FC6C1C671D8B791A00D8F160 /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		FC6C1C681D8B791A00D8F160 /* ImageCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		FC6C1C691D8B791A00D8F160 /* ImageCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		FC6C1C701D8B79DF00D8F160 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC6C1C711D8B79DF00D8F160 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6C1C721D8B79DF00D8F160 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		FC6C1C731D8B79DF00D8F160 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		FC6C1C741D8B79DF00D8F160 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC6C1C751D8B79DF00D8F160 /* MyHaikusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHaikusCell.h; sourceTree = "<group>"; };
+		FC6C1C761D8B79DF00D8F160 /* MyHaikusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHaikusCell.m; sourceTree = "<group>"; };
+		FC6C1C771D8B79DF00D8F160 /* MyHaikusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHaikusViewController.h; sourceTree = "<group>"; };
+		FC6C1C781D8B79DF00D8F160 /* MyHaikusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHaikusViewController.m; sourceTree = "<group>"; };
+		FC6C1C791D8B79DF00D8F160 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		FC6C1C7A1D8B79DF00D8F160 /* RefreshProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshProtocol.h; sourceTree = "<group>"; };
+		FC6C1C7B1D8B79DF00D8F160 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		FC6C1C7C1D8B79DF00D8F160 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		FC6C1C851D8B7A2500D8F160 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FC6C1C871D8B7A3000D8F160 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FC6C1C891D8B7A3600D8F160 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC6C1C8B1D8B7A3C00D8F160 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FC6C1C8D1D8B7A4600D8F160 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FC6C1C8F1D8B7A4D00D8F160 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FC6C1C911D8B7A5800D8F160 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FC6C1C931D8B7A6100D8F160 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FC6C1C951D8B7A6800D8F160 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FC6C1C971D8B7A7100D8F160 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FC6C1C991D8B7A7C00D8F160 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FC6C1C9B1D8B7AA400D8F160 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "parse-library-1.7.1/Bolts.framework"; sourceTree = "<group>"; };
+		FC6C1C9C1D8B7AA400D8F160 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "parse-library-1.7.1/Parse.framework"; sourceTree = "<group>"; };
+		FC6C1C9D1D8B7AA400D8F160 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "parse-library-1.7.1/ParseCrashReporting.framework"; sourceTree = "<group>"; };
+		FC6C1C9E1D8B7AA400D8F160 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "parse-library-1.7.1/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		FC6C1C9F1D8B7AA400D8F160 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "parse-library-1.7.1/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		FC6C1CA01D8B7AA400D8F160 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "parse-library-1.7.1/ParseUI.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +115,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6C1CA11D8B7AA400D8F160 /* Bolts.framework in Frameworks */,
+				FC6C1CA21D8B7AA400D8F160 /* Parse.framework in Frameworks */,
+				FC6C1CA31D8B7AA400D8F160 /* ParseCrashReporting.framework in Frameworks */,
+				FC6C1CA41D8B7AA400D8F160 /* ParseFacebookUtils.framework in Frameworks */,
+				FC6C1CA51D8B7AA400D8F160 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				FC6C1CA61D8B7AA400D8F160 /* ParseUI.framework in Frameworks */,
+				FC6C1C9A1D8B7A7C00D8F160 /* libsqlite3.dylib in Frameworks */,
+				FC6C1C981D8B7A7100D8F160 /* SystemConfiguration.framework in Frameworks */,
+				FC6C1C961D8B7A6800D8F160 /* StoreKit.framework in Frameworks */,
+				FC6C1C941D8B7A6100D8F160 /* Security.framework in Frameworks */,
+				FC6C1C921D8B7A5800D8F160 /* QuartzCore.framework in Frameworks */,
+				FC6C1C901D8B7A4D00D8F160 /* MobileCoreServices.framework in Frameworks */,
+				FC6C1C8E1D8B7A4600D8F160 /* libz.dylib in Frameworks */,
+				FC6C1C8C1D8B7A3C00D8F160 /* CoreLocation.framework in Frameworks */,
+				FC6C1C8A1D8B7A3600D8F160 /* CoreGraphics.framework in Frameworks */,
+				FC6C1C881D8B7A3000D8F160 /* CFNetwork.framework in Frameworks */,
+				FC6C1C861D8B7A2500D8F160 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +148,23 @@
 		FC6C1C1C1D8B780700D8F160 = {
 			isa = PBXGroup;
 			children = (
+				FC6C1C9B1D8B7AA400D8F160 /* Bolts.framework */,
+				FC6C1C9C1D8B7AA400D8F160 /* Parse.framework */,
+				FC6C1C9D1D8B7AA400D8F160 /* ParseCrashReporting.framework */,
+				FC6C1C9E1D8B7AA400D8F160 /* ParseFacebookUtils.framework */,
+				FC6C1C9F1D8B7AA400D8F160 /* ParseFacebookUtilsV4.framework */,
+				FC6C1CA01D8B7AA400D8F160 /* ParseUI.framework */,
+				FC6C1C991D8B7A7C00D8F160 /* libsqlite3.dylib */,
+				FC6C1C971D8B7A7100D8F160 /* SystemConfiguration.framework */,
+				FC6C1C951D8B7A6800D8F160 /* StoreKit.framework */,
+				FC6C1C931D8B7A6100D8F160 /* Security.framework */,
+				FC6C1C911D8B7A5800D8F160 /* QuartzCore.framework */,
+				FC6C1C8F1D8B7A4D00D8F160 /* MobileCoreServices.framework */,
+				FC6C1C8D1D8B7A4600D8F160 /* libz.dylib */,
+				FC6C1C8B1D8B7A3C00D8F160 /* CoreLocation.framework */,
+				FC6C1C891D8B7A3600D8F160 /* CoreGraphics.framework */,
+				FC6C1C871D8B7A3000D8F160 /* CFNetwork.framework */,
+				FC6C1C851D8B7A2500D8F160 /* AudioToolbox.framework */,
 				FC6C1C271D8B780700D8F160 /* HaikuRoom */,
 				FC6C1C441D8B780700D8F160 /* HaikuRoomTests */,
 				FC6C1C261D8B780700D8F160 /* Products */,
@@ -84,27 +183,39 @@
 		FC6C1C271D8B780700D8F160 /* HaikuRoom */ = {
 			isa = PBXGroup;
 			children = (
-				FC6C1C2C1D8B780700D8F160 /* AppDelegate.h */,
-				FC6C1C2D1D8B780700D8F160 /* AppDelegate.m */,
-				FC6C1C2F1D8B780700D8F160 /* FirstViewController.h */,
-				FC6C1C301D8B780700D8F160 /* FirstViewController.m */,
-				FC6C1C321D8B780700D8F160 /* SecondViewController.h */,
-				FC6C1C331D8B780700D8F160 /* SecondViewController.m */,
-				FC6C1C351D8B780700D8F160 /* Main.storyboard */,
-				FC6C1C381D8B780700D8F160 /* Images.xcassets */,
-				FC6C1C3A1D8B780700D8F160 /* LaunchScreen.xib */,
-				FC6C1C281D8B780700D8F160 /* Supporting Files */,
+				FC6C1C701D8B79DF00D8F160 /* Images.xcassets */,
+				FC6C1C711D8B79DF00D8F160 /* Info.plist */,
+				FC6C1C721D8B79DF00D8F160 /* LogInViewController.h */,
+				FC6C1C731D8B79DF00D8F160 /* LogInViewController.m */,
+				FC6C1C741D8B79DF00D8F160 /* main.m */,
+				FC6C1C751D8B79DF00D8F160 /* MyHaikusCell.h */,
+				FC6C1C761D8B79DF00D8F160 /* MyHaikusCell.m */,
+				FC6C1C771D8B79DF00D8F160 /* MyHaikusViewController.h */,
+				FC6C1C781D8B79DF00D8F160 /* MyHaikusViewController.m */,
+				FC6C1C791D8B79DF00D8F160 /* README.txt */,
+				FC6C1C7A1D8B79DF00D8F160 /* RefreshProtocol.h */,
+				FC6C1C7B1D8B79DF00D8F160 /* RegisterViewController.h */,
+				FC6C1C7C1D8B79DF00D8F160 /* RegisterViewController.m */,
+				FC6C1C5E1D8B791A00D8F160 /* CanvasViewController.h */,
+				FC6C1C5F1D8B791A00D8F160 /* CanvasViewController.m */,
+				FC6C1C601D8B791A00D8F160 /* HaikuDetailsViewController.h */,
+				FC6C1C611D8B791A00D8F160 /* HaikuDetailsViewController.m */,
+				FC6C1C621D8B791A00D8F160 /* HaikuWallCell.h */,
+				FC6C1C631D8B791A00D8F160 /* HaikuWallCell.m */,
+				FC6C1C641D8B791A00D8F160 /* HaikuWallViewController.h */,
+				FC6C1C651D8B791A00D8F160 /* HaikuWallViewController.m */,
+				FC6C1C661D8B791A00D8F160 /* ImageCollectionViewCell.h */,
+				FC6C1C671D8B791A00D8F160 /* ImageCollectionViewCell.m */,
+				FC6C1C681D8B791A00D8F160 /* ImageCollectionViewFlowLayout.h */,
+				FC6C1C691D8B791A00D8F160 /* ImageCollectionViewFlowLayout.m */,
+				FC6C1C5A1D8B790800D8F160 /* LaunchScreen.xib */,
+				FC6C1C5B1D8B790800D8F160 /* Main.storyboard */,
+				FC6C1C571D8B78C500D8F160 /* AppDelegate.h */,
+				FC6C1C581D8B78C500D8F160 /* AppDelegate.m */,
+				FC6C1C511D8B788500D8F160 /* AddHaikuViewController.h */,
+				FC6C1C521D8B788500D8F160 /* AddHaikuViewController.m */,
 			);
 			path = HaikuRoom;
-			sourceTree = "<group>";
-		};
-		FC6C1C281D8B780700D8F160 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC6C1C291D8B780700D8F160 /* Info.plist */,
-				FC6C1C2A1D8B780700D8F160 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		FC6C1C441D8B780700D8F160 /* HaikuRoomTests */ = {
@@ -204,9 +315,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC6C1C371D8B780700D8F160 /* Main.storyboard in Resources */,
-				FC6C1C3C1D8B780700D8F160 /* LaunchScreen.xib in Resources */,
-				FC6C1C391D8B780700D8F160 /* Images.xcassets in Resources */,
+				FC6C1C7E1D8B79DF00D8F160 /* Info.plist in Resources */,
+				FC6C1C7D1D8B79DF00D8F160 /* Images.xcassets in Resources */,
+				FC6C1C5D1D8B790800D8F160 /* Main.storyboard in Resources */,
+				FC6C1C5C1D8B790800D8F160 /* LaunchScreen.xib in Resources */,
+				FC6C1C831D8B79DF00D8F160 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +337,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC6C1C341D8B780700D8F160 /* SecondViewController.m in Sources */,
-				FC6C1C2E1D8B780700D8F160 /* AppDelegate.m in Sources */,
-				FC6C1C311D8B780700D8F160 /* FirstViewController.m in Sources */,
-				FC6C1C2B1D8B780700D8F160 /* main.m in Sources */,
+				FC6C1C801D8B79DF00D8F160 /* main.m in Sources */,
+				FC6C1C6A1D8B791A00D8F160 /* CanvasViewController.m in Sources */,
+				FC6C1C6F1D8B791A00D8F160 /* ImageCollectionViewFlowLayout.m in Sources */,
+				FC6C1C531D8B788500D8F160 /* AddHaikuViewController.m in Sources */,
+				FC6C1C6B1D8B791A00D8F160 /* HaikuDetailsViewController.m in Sources */,
+				FC6C1C821D8B79DF00D8F160 /* MyHaikusViewController.m in Sources */,
+				FC6C1C811D8B79DF00D8F160 /* MyHaikusCell.m in Sources */,
+				FC6C1C6D1D8B791A00D8F160 /* HaikuWallViewController.m in Sources */,
+				FC6C1C7F1D8B79DF00D8F160 /* LogInViewController.m in Sources */,
+				FC6C1C841D8B79DF00D8F160 /* RegisterViewController.m in Sources */,
+				FC6C1C6C1D8B791A00D8F160 /* HaikuWallCell.m in Sources */,
+				FC6C1C6E1D8B791A00D8F160 /* ImageCollectionViewCell.m in Sources */,
+				FC6C1C591D8B78C500D8F160 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,25 +370,6 @@
 			targetProxy = FC6C1C421D8B780700D8F160 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FC6C1C351D8B780700D8F160 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC6C1C361D8B780700D8F160 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FC6C1C3A1D8B780700D8F160 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC6C1C3B1D8B780700D8F160 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FC6C1C491D8B780700D8F160 /* Debug */ = {
@@ -353,6 +456,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.7.1",
+				);
 				INFOPLIST_FILE = HaikuRoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +470,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.7.1",
+				);
 				INFOPLIST_FILE = HaikuRoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
